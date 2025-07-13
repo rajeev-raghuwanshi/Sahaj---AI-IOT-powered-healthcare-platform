@@ -40,67 +40,7 @@ Sahaj is a unified healthcare platform that leverages AI and IoT to provide earl
 ### 📞 Telemedicine
 - WebRTC / Jitsi Meet / PeerJS (for video calling)
 
----
-
-## 📁 Folder Structure
-
-SAHAJ/
-├── Backend/
-│   ├── models/
-│   │   └── user.js
-│   ├── node_modules/
-│   ├── views/
-│   │   ├── create.ejs
-│   │   ├── index.ejs
-│   │   └── login.ejs
-│   ├── app.js
-│   ├── package.json
-│   └── package-lock.json
-├── Frontend/
-│   ├── node_modules/
-│   ├── prescripto_assets/
-│   │   ├── assets/
-│   │   ├── assets_admin/
-│   │   └── assets_frontend/
-│   ├── public/
-│   │   └── vite.svg
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── context/
-│   │   │   └── AppContext.jsx
-│   │   ├── pages/
-│   │   │   ├── About.jsx
-│   │   │   ├── AIAssistant.jsx
-│   │   │   ├── AIHome.jsx
-│   │   │   ├── Appointments.jsx
-│   │   │   ├── Contact.jsx
-│   │   │   ├── Doctors.jsx
-│   │   │   ├── Home.jsx
-│   │   │   ├── InteractionPage.jsx
-│   │   │   ├── IOT.jsx
-│   │   │   ├── IOT.jsx.backup
-│   │   │   ├── IOT.jsx.new
-│   │   │   ├── Login.jsx
-│   │   │   ├── MedicalHistory.jsx
-│   │   │   ├── MyAppointments.jsx
-│   │   │   ├── MyProfile.jsx
-│   │   │   ├── NewFeatures.jsx
-│   │   │   └── Signup.jsx
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── .gitignore
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package.json
-│   └── package-lock.json
-└── Stars of GreatStack.pdf
-
-
----
----
+------
 # 🧠 MedSight AI
 
 **MedSight AI** is a deep learning-based medical diagnostic tool that analyzes CT scan images of the **lungs**, **breast**, and **brain** to detect cancer and predict its severity. It generates **Grad-CAM heatmaps** for infected areas and offers personalized **Do’s and Don’ts** based on the predicted **malignancy score** (ranging from 1 to 5).
