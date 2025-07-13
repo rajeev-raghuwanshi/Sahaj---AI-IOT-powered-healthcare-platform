@@ -1,5 +1,5 @@
-# semicolon_SAHAJ-Health-tech-_INNOTHON2.0
-# 🩺 Sahaj: AI-Powered Rural Healthcare Platform
+# semicolon_SAHAJ-Health-tech-
+# 🩺 Sahaj: AI & IOT Powered Rural Healthcare Platform
 
 Sahaj is a unified healthcare platform that leverages AI and IoT to provide early disease prediction, health monitoring, and telemedicine services—specifically designed for underserved and rural communities.
 
