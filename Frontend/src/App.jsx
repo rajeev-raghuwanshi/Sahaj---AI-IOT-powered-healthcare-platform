@@ -16,6 +16,7 @@ import AiAssistant from "./pages/AiAssistant";
 import AiHome from "./pages/AiHome";
 import IoT from "./pages/IOT";
 import Chatbot from "./components/Chatbot";
+import MedicalHistory from "./pages/MedicalHistory";
 
 const App = () => {
   const location = useLocation();                    // 🔍 current route
@@ -27,6 +28,7 @@ const App = () => {
       {!hideNav && <Navbar />}
 
       <Routes>
+        
         <Route path="/" element={<Home />} />
         <Route path="/doctors" element={<Doctors />} />
         <Route path="/doctors/:speciality" element={<Doctors />} />
@@ -41,6 +43,8 @@ const App = () => {
         <Route path="/aiassistant" element={<AiAssistant />} />
         <Route path="/aihome" element={<AiHome />} />
         <Route path="/iot" element={<IoT />} />
+        <Route path="/history" element={<MedicalHistory />} />
+
       </Routes>
 
       {!hideNav && <Footer />}

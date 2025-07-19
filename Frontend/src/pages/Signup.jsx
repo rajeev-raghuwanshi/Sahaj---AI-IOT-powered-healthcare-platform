@@ -33,8 +33,8 @@ const Signup = () => {
     );
 
     console.log("User created:", response.data);
-    alert("Signup successful!");
-    navigate("/login");
+    alert("Signup successful!");    
+      navigate("/interactionpage");
   } catch (error) {
     // Display the error message to the user
     console.error("Signup error:", error.response.data);

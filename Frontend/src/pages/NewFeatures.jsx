@@ -8,26 +8,26 @@ import "aos/dist/aos.css";
 const features = [
   {
     img: "https://img.freepik.com/free-vector/hand-drawn-ai-healthcare-illustration_23-2151106570.jpg?t=st=1746928886~exp=1746932486~hmac=fc1cb620dc02a41448c8397510d214f10fd2fb6ea83ced09a96f1c6c12270023&w=826",
-    title: "AI Diagnosis Model",
-    description: "AI uses your genetic data to provide risk assessments and personalized health advice.",
+    title: "AI Diagnosis",
+    description: "Deep learning analyzes medical data and scans to detect early signs of diseases like lung cancer, breast cancer, and brain tumors.",
     link: "http://localhost:8501/",
   },
   {
     img: "https://img.freepik.com/free-vector/illustrated-online-doctor-app_23-2148536240.jpg?t=st=1746928670~exp=1746932270~hmac=ee6db18f6ece3fe10982f789dc15f47eaaf84994e2b8d756f7bf7a71d12acc62&w=826",
-    title: "Telemedicine App",
-    description: "Receive personalized meditation and mental wellness routines based on mood tracking.",
+    title: "Telemedicine",
+    description: "A user-friendly app for virtual doctor consultations, enabling remote care in underserved areas.",
     link: "/doctors",
   },
   {
-    img: "https://img.freepik.com/free-photo/futuristic-technology-hologram_23-2151917434.jpg?t=st=1746928745~exp=1746932345~hmac=a9bd8b9f8664fe3153eddff61ad9ba39919bff1324bf1762784cd56019d16b7f&w=740",
-    title: "Medical History",
+    img: "https://image.shutterstock.com/z/stock-vector-medical-report-cartoon-652000837.jpg ",
+    title: "Medical Report",
     description: "Track medications, receive reminders, and get alerts for potential interactions.",
     link: "/history",
   },
   {
     img: "https://img.freepik.com/free-vector/personal-emergency-button-abstract-concept-illustration_335657-3865.jpg?t=st=1746928838~exp=1746932438~hmac=dabb66f1d3899cbd8d38d90a36eb18f95d69fe6c540a53c081ee17e8f6b58861&w=826",
-    title: "IOT Emergency Alerts",
-    description: "AI detects emergency conditions and notifies your contacts immediately.",
+    title: "Health Monitoring",
+    description: "Real-time health monitoring using IoT devices provides continuous vital data like SpO2 and heart rate for remote tracking.",
     link: "/iot",
   },
 ];
@@ -40,11 +40,10 @@ export default function NewFeatures() {
   return (
     <section className="bg-white text-gray-900">
       {/* FEATURES */}
-      <div className="max-w-7xl mx-auto px-6 py-20 text-center">
-        <h2 className="text-4xl font-bold mb-6">New Features</h2>
+      <div className="max-w-7xl mx-auto px-6 py-20  text-center">
+        <h2 className="text-5xl text-gray-800 font-bold mb-6 uppercase ">sahaj🏥</h2>
         <p className="text-lg text-gray-600 mb-14 max-w-2xl mx-auto leading-relaxed">
-          Discover the advanced tools Med.ai offers using artificial intelligence to
-          empower your health decisions.
+          An AI-powered healthcare platform with real-time IoT-enabled health monitoring for continuous patient care and timely medical intervention.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">

@@ -1,8 +1,12 @@
 import React from 'react'
+import Home from './Home'
+import NewFeatures from './NewFeatures'
 
 const AiHome = () => {
   return (
-    <div>AiHome</div>
+    <div>
+    <NewFeatures/>
+    </div>
   )
 }
 
